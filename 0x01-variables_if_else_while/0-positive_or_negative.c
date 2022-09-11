@@ -8,10 +8,11 @@
 #include <stdio.h>
 
 /**
- * main - print if the number is postive, zero, or negative
+ * main - print a random number and states whether
+ *        it is positive, negative, zero.
  *
  * Return: Always 0
- */
+*/
 int main(void)
 {
 	int n;
