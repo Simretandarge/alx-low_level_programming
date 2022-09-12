@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints a hexadecimalstring 
+ * main - Prints a hexadecimalstring
  *
  * Return: Always (Success)
  */
