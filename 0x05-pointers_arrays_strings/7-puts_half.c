@@ -10,14 +10,14 @@ void puts_half(char *str)
 	int j = 0;
 	int k;
 
-	while (str[j] != '\O')
+	while (str[j] != '\0')
 	{
 		j++;
 	}
 
 	if (j % 2 == 1)
 	{
-		k = (j -1) / 2;
+		k = (j - 1) / 2;
 		k += 1;
 	}
 	else
