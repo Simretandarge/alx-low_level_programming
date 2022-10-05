@@ -7,23 +7,24 @@
  */
 int len(char *str)
 {
-	int len = 0
+	int len = 0;
 
-		if (str != NULL)
-		{
-			while (str[len])
-				len++;
-		}
+	if (str != NULL)
+	{
+		while (str[len])
+			len++;
+	}
 	return (len);
 }
 
 /**
  * argstostr - a function that concatenates all the arguments of your program
  * @ac: count of args passed to the function
- * @av: array of argument
+ * @av:array of arguments
  *
  * Return: pointer to the new string
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *new_string = NULL;
@@ -38,7 +39,7 @@ char *argstostr(int ac, char **av)
 
 	if (new_string != NULL)
 	{
-		while (k <i)
+		while (k < i)
 		{
 			for (j = 0; av[k][j] != '\0'; j++)
 				new_string[j + temp] = av[k][j];
