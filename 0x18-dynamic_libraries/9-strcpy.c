@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _memcpy - main function
+ * _strcpy - function to copy strings
  * @dest: destination address
  * @src: source address
- * @n: integer variable
  * Return: returns zero
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strcpy(char *dest, char *src)
 {
 	return (0);
 }
